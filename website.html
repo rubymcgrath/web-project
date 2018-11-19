@@ -3,45 +3,171 @@
 <head>
   <title> Beyond Gravity's Reach </title>
   <link rel="stylesheet" href="website.css">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
   <h1> B.G.R. </h1>
   <h2> Beyond Gravity's Reach </h2>
-  <img src="background.jpg">
-  <form>
-    <fieldset>
-      <legend> Form 1 </legend>
-      <input type="radio" name="planet" value="Planet1">Planet1<br>
-      <input type="radio" name="planet" value="Planet2">Planet2<br>
-      <input type="radio" name="planet" value="Planet3">Planet3<br>
-      <input type="radio" name="planet" value="Planet4">Planet4<br>
-      <br>
-      <input type="submit" value="Submit">
-    </fieldset>
-  </form>
-  <form>
-    <fieldset>
-      <legend> Form 2 </legend>
-      Planet Name: <br>
-      <input type="name" name="planet_name">
-      <br>
-      Planet Colour: <br>
-      <input type="name" name="planet_colour">
-      <br>
-      <br>
-      <input type="submit" value="Submit">
-    </fieldset>
-  </form>
-  <br>
-  <br>
-  <button type="button">Planet 1</button>
-  <br>
-  <br>
-  <button type="button">Planet 2</button>
-  <br>
-  <br>
-  <button type="button">Planet 3</button>
-  <img src="Earth_Western_Hemisphere_transparent_background.png">
+  <h6>Is this your first trip? </h6>
+  <p> Why don't you choose one of our suggested destinations? </p>
+
+
+
+
+
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <div>
+      <input type="image" src="white2.png" width="300px" height="300px" name="saveForm" id="saveForm8" />
+    </div>
+
+  </div>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p> Best planet for summer </p>
+    </div>
+  </div>
+  <script>
+  var modal = document.getElementById('myModal');
+  var btn = document.getElementById("saveForm1");
+  var span = document.getElementsByClassName("close")[0];
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+
+  <div class="mySlides1">
+
+    <div>
+      <input type="image" src="venus.png" width="200px" height="200px" name="saveForm" class="btTxt submit" id="saveForm7" />
+    </div>
+
+  </div>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p> Best planet for summer </p>
+    </div>
+  </div>
+  <script>
+  var modal = document.getElementById('myModal');
+  var btn = document.getElementById("saveForm1");
+  var span = document.getElementsByClassName("close")[0];
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+
+  <div class="mySlides1">
+
+    <div>
+      <input type="image" src="neptune.png" width="250px" height="250px" name="saveForm" class="btTxt submit" id="saveForm1" />
+    </div>
+
+
+  </div>
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p> Best planet for summer </p>
+    </div>
+  </div>
+  <script>
+  var modal = document.getElementById('myModal');
+  var btn = document.getElementById("saveForm1");
+  var span = document.getElementsByClassName("close")[0];
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+
+    <div class="mySlides1">
+
+      <div>
+        <input type="image" src="pink_planet.png" width="200px" height="200px" name="saveForm" class="btTxt submit" id="saveForm" />
+      </div>
+
+
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p> Best planet for summer </p>
+      </div>
+    </div>
+    <script>
+    var modal = document.getElementById('myModal');
+    var btn = document.getElementById("saveForm1");
+    var span = document.getElementsByClassName("close")[0];
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+<script>
+var slideIndex = [1,1];
+var slideId = ["mySlides1"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex[no]-1].style.display = "block";
+}
+</script>
+
 </body>
 </html>
