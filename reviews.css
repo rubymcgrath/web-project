@@ -1,9 +1,9 @@
 <style>
 body {
-  font-family: 'Londrina Shadow', cursive;
+  background-color: black;
+  font-family: verdana;
   margin: 0 auto;
   max-width: 600px;
-  background-color: black;
 }
 div {
   height: 400px;
@@ -27,7 +27,7 @@ h2 {
 }
 p {
   font-family: verdana;
-  color: rgba(255,255,255,1);
+  color: white;
   background: black;
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
@@ -44,16 +44,6 @@ p {
   -moz-transition: height .5s;
 }
 
-small {
-  opacity: 0;
-}
-
-.show-description p {
-  height: 150px;
-}
-.show-description small {
-  opacity: 1;
-}
 .first{
   background-image: url("earth.jpg");
   background-position: center;
@@ -87,7 +77,7 @@ small {
   background-position: center;
 }
 .checked{
-  color: orange;
+  color: yellow;
 }
 
 
