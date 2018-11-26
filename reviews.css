@@ -16,17 +16,17 @@ h1 {
   font-family: 'Londrina Shadow', cursive;
   text-align: center;
   font-size: 75px;
-  color: #aaaaaa;
+  color: black;
   margin: 60px 0 0 0;
 }
 h2 {
-  font-family: helvetica;
+  font-family: verdana;
   text-align: center;
-  color: #bbbbbb;
+  color: black;
   margin: 0px 0 70px 0;
 }
 p {
-  font-family: helvetica;
+  font-family: verdana;
   color: rgba(255,255,255,1);
   background: black;
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
@@ -51,11 +51,9 @@ small {
 .show-description p {
   height: 150px;
 }
-
 .show-description small {
   opacity: 1;
 }
-
 .first{
   background-image: url("earth.jpg");
   background-position: center;
@@ -72,6 +70,26 @@ small {
   background-image: url("neptune.jpg");
     background-position: center;
 }
+.fifth{
+  background-image: url("mars.jpg");
+  background-position: center;
+}
+.sixth{
+  background-image: url("venus.jpg");
+  background-position: center;
+}
+.seventh{
+  background-image:url("uranus.jpg");
+  background-position: center;
+}
+.eighth{
+  background-image:url("mercury.jpg");
+  background-position: center;
+}
+.checked{
+  color: orange;
+}
+
 
 @media (max-width: 500px) {
   h1 {
