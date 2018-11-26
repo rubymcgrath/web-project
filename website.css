@@ -1,0 +1,13 @@
+h1 {
+  color: blue;
+  font-style: italic;
+  font-family: helvetica;
+}
+h2 {
+  color: cornflowerblue;
+}
+body {
+  background-image: url("Colorful-Galaxy-Background-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
