@@ -309,11 +309,12 @@ input {vertical-align: middle;}
   max-width: auto;
   position: relative;
   margin: auto;
+  bottom: 200px;
 }
 
 .prev, .next {
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   top: 50%;
   width: auto;
   padding: 16px;
@@ -329,7 +330,7 @@ input {vertical-align: middle;}
 
 .next {
   right: 20%;
-  border-radius: 3px 0 0 3px;
+  border-radius: -3px 0 0 -3px;
 }
 
 .prev {
@@ -339,6 +340,6 @@ input {vertical-align: middle;}
 
 
 .prev:hover, .next:hover {
-  background-color: #f1f1f1;
-  color: black;
+  background-color: black;
+  opacity: 0.4;
 }
