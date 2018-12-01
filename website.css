@@ -1,19 +1,74 @@
 h1 {
-  color: red;
-  background-color: blue;
+  color: white;
+  background-color: lightcoral;
 }
-img {
-  width: 50px;
-  height: 50px;
+
+legend{
+  color: DarkCyan;
+  font-size: 50;
+  font-family: monospace;
 }
 label{
   width:100%;
   padding:12px,20px;
-  color: black;
+  color: #DC143C;
   font-size: 100;
   font-family:cambria;
 }
+fieldset1{
+  float="left";
+  width:40%;
+}
+fieldset2{
+  float="right";
+  width:40%;
+}
+
+.container input {
+    position: fixed;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+    cursor: pointer;
+}
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+.container1 input{
+  cursor: pointer;
+  position:absolute;
+  align:25px;
+}
 .submit input {
-background-color: green;
+width:15%;
+background-color: DarkCyan;
 color:white;
+cursor:pointer;
 }
