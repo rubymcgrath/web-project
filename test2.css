@@ -23,10 +23,6 @@ padding:0px;
   margin:80px;
 }
 
-.img-content{
-  float:left;
-}
-
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -37,6 +33,22 @@ padding:0px;
   border-radius: 50%;
 }
 .fa-linkedin {
-  background: #007bb5;
-  color: white;
+  background:transparent;
+  color: #007bb5;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: #3B5998;
+}
+
+.fa-instagram {
+  background:transparent;
+  color: #ff5500;
+}
+
+input.fa-linkedin:hover {
+color: #ffff00;
+background: #000;
+border: 1px solid #fff;
 }
