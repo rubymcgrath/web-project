@@ -2,6 +2,7 @@
 <head>
 
   <title> Beyond Gravity's Reach </title>
+  <link rel="stylesheet" href="./website.css">
   <link rel="stylesheet" href="landingpage.css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="animation.css">
@@ -317,6 +318,103 @@ function showSlides(n, no) {
   x[slideIndex[no]-1].style.display = "block";
 }
 </script>
+
+
+
+
+<form>
+  <fieldset1>
+    <legend align="left"> Select A Planet! </legend>
+    <br>
+    <label for="planet">Planet</label>
+    <select id="planet" name="planet">
+        <option value="Earth">Earth</option>
+        <option value="Moon">Moon</option>
+        <option value="Sun">Sun</option>
+        <option value="Uranus">Uranus</option>
+        <option value="Venus">Venus</option>
+        <option value="Mercury">Mercury</option>
+        <option value="Neptune">Neptune</option>
+    </select>
+    <br>
+    <br>
+    <label for="transport"> Transport </label>
+    <p>
+      <input type="radio" name="radio">
+      <label class="container">Imperial Destroyer
+      <span class="checkmark"> </span>
+      </label>
+    </p>
+    <p>
+      <input type="radio" name="radio">
+      <label class="container">Millennium Falcon
+      <span class="checkmark"> </span>
+      </label>
+    </p>
+    <p>
+      <input type="radio" name="radio">
+      <label class="container">Imperial Shuttle
+      <span class="checkmark"> </span>
+      </label>
+    </p>
+    <p>
+      <input type="radio" name="radio">
+      <label class="container"> Deathstar
+      <span class="checkmark"> </span>
+      </label>
+    </p>
+    <br>
+    <label for="staff">Staff Member</label>
+    <select id="staff" name="staff">
+        <option value="Memona">Memona</option>
+        <option value="Anisia">Anisia</option>
+        <option value="Bianca">Bianca</option>
+        <option value="Isla">isla</option>
+        <option value="Ruby">Ruby</option>
+        <option value="Fangzi">Fangzi</option>
+    </select>
+    <br>
+    <p>
+      <label>Email</label>
+      <br>
+      <input type="text" class="container1">
+    </p>
+    <p class="submit">
+      <input type="submit" onclick="alert('Thank You for selecting a Planet!')" value="GO!" />
+  </p>
+</fieldset1>
+</form>
+
+<form>
+  <fieldset2>
+    <legend align="left"> Create A Planet! </legend>
+  <p>
+    <label>Planet Name</label>
+    <input type="text" class="container1">
+    </p>
+  <p>
+    <label>Planet Colour</label>
+    <input type="text" class="container1">
+  </p>
+  <p>
+    <label>Planet Climate</label>
+    <input type="text" class="container1">
+  </p>
+  <p>
+    <label>Planet Terrain</label>
+    <input type="text" class="container1">
+  </p>
+  <p>
+    <label>Email Address</label>
+    <input type="text" class="container1">
+  </p>
+
+    <p class="submit">
+      <input type="submit" onclick="alert('Thank You for your application. You will shortly receive an email with your new designed planet!')" value="GO!" />
+  </p>
+</fieldset2>
+</form>
+
 <br>
 <br>
 <br>
