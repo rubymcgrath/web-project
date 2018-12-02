@@ -1,0 +1,48 @@
+body{
+background-image:url("background-intro.jpg");
+background-size: cover;
+font-size: 12px;
+margin:0px;
+padding:0px;
+}
+
+
+.content{
+  color:#f0f0f0;
+  font-size: 20px;
+  font-family:cursive;
+  text-align:left;
+  margin:80px;
+}
+
+.contentx{
+  color:#f0f0f0;
+  font-size: 20px;
+  font-family:cursive;
+  text-align:right;
+  margin:80px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-linkedin {
+  background:transparent;
+  color: #007bb5;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: #3B5998;
+}
+
+.fa-instagram {
+  background:transparent;
+  color: #ff5500;
+}
