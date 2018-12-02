@@ -5,6 +5,13 @@ h6 {
   text-align: center;
 }
 
+h2 {
+  color: #00736c ;
+  font-family: 'Sofia';
+  font-size: 35px;
+  text-align: center;
+}
+
 p {
   color:#00736c;
   font-family:'Quicksand', sans-serif;
