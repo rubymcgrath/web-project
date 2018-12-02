@@ -48,20 +48,17 @@ p {
   background-image: url("earth.jpg");
   background-position: center;
 }
-.jupiter{
-  background-image: url("jupiter.jpg");
+.moon{
+  background-image: url("moon_1.jpg");
     background-position: center;
 }
-.saturn{
-  background-image: url("saturn.jpg");
-    background-position: center;
-}
+
 .neptune{
   background-image: url("neptune.jpg");
     background-position: center;
 }
-.mars{
-  background-image: url("mars.jpg");
+.sun{
+  background-image: url("sun_1.jpg");
   background-position: center;
 }
 .venus{
@@ -155,6 +152,9 @@ p {
     line-height: 24px;
   }
   small {
+    font-size: 16px;
+  }
+}
     font-size: 16px;
   }
 }
