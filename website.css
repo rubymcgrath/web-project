@@ -15,13 +15,31 @@ label{
   font-size: 100;
   font-family:cambria;
 }
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 fieldset1{
-  float="left";
+  float:left;
   width:40%;
+  border: solid;
+  margin: 10px;
+  padding: 15px;
+  color: DarkCyan;
+
 }
 fieldset2{
-  float="right";
+  float:right;
   width:40%;
+  border: solid;
+  margin: 10px;
+  padding: 15px;
+  color:DarkCyan ;
 }
 
 .container input {
@@ -66,9 +84,22 @@ fieldset2{
   position:absolute;
   align:25px;
 }
+.container1 {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 .submit input {
 width:15%;
 background-color: DarkCyan;
 color:white;
 cursor:pointer;
+}
+label[for="transport"]
+{
+  color: DarkCyan;
 }

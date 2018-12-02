@@ -1,60 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Beyond Gravity's Reach </title>
+
 
   <link rel="stylesheet" href="./website.css">
+
 </head>
 
 <body>
-  <h1> B.G.R. </h1>
-  <h2> Beyond Gravity's Reach </h2>
+
 
   <form>
     <fieldset1>
       <legend align="left"> Select A Planet! </legend>
-      <p>
-        <input type="radio" name="radio">
-        <label class="container">Planet 1
-        <span class="checkmark"> </span>
-        </label>
-      </p>
-      <p>
-        <input type="radio" name="radio">
-        <label class="container">Planet 2
-        <span class="checkmark"> </span>
-        </label>
-      </p>
-      <p>
-        <input type="radio" name="radio">
-        <label class="container">Planet 3
-        <span class="checkmark"> </span>
-        </label>
-      </p>
-      <p>
-        <input type="radio" name="radio">
-        <label class="container">Planet 4
-        <span class="checkmark"> </span>
-        </label>
-      </p>
-      <p>
-        <input type="radio" name="radio">
-        <label class="container">Planet 5
-        <span class="checkmark"> </span>
-        </label>
-      </p>
-      <p>
-        <input type="radio" name="radio">
-      <label class="conatiner">Planet 6
-      <span class="checkmark"> </span>
-      </label>
-    </p>
-    <p>
-      <input type="radio" name="radio">
-      <label class="container">Planet 7
-      <span class="checkmark"> </span>
-      </label>
       <br>
+      <label for="planet">Planet</label>
+      <select id="planet" name="planet">
+          <option value="Earth">Earth</option>
+          <option value="Moon">Moon</option>
+          <option value="Sun">Sun</option>
+          <option value="Uranus">Uranus</option>
+          <option value="Venus">Venus</option>
+          <option value="Mercury">Mercury</option>
+          <option value="Neptune">Neptune</option>
+      </select>
+      <br>
+      <br>
+      <label for="transport"> Transport </label>
+      <p>
+        <input type="radio" name="radio">
+        <label class="container">Imperial Destroyer
+        <span class="checkmark"> </span>
+        </label>
+      </p>
+      <p>
+        <input type="radio" name="radio">
+        <label class="container">Millennium Falcon
+        <span class="checkmark"> </span>
+        </label>
+      </p>
+      <p>
+        <input type="radio" name="radio">
+        <label class="container">Imperial Shuttle
+        <span class="checkmark"> </span>
+        </label>
+      </p>
+      <p>
+        <input type="radio" name="radio">
+        <label class="container"> Deathstar
+        <span class="checkmark"> </span>
+        </label>
+      </p>
+      <br>
+      <label for="staff">Staff Member</label>
+      <select id="staff" name="staff">
+          <option value="Memona">Memona</option>
+          <option value="Anisia">Anisia</option>
+          <option value="Bianca">Bianca</option>
+          <option value="Isla">isla</option>
+          <option value="Ruby">Ruby</option>
+          <option value="Fangzi">Fangzi</option>
+      </select>
+      <br>
+      <p>
+        <label>Email</label>
+        <br>
+        <input type="text" class="container1">
+      </p>
       <p class="submit">
         <input type="submit" onclick="alert('Thank You for selecting a Planet!')" value="GO!" />
     </p>
@@ -68,27 +80,23 @@
       <label>Planet Name</label>
       <input type="text" class="container1">
       </p>
-      <br>
     <p>
       <label>Planet Colour</label>
       <input type="text" class="container1">
     </p>
-    <br>
     <p>
       <label>Planet Climate</label>
       <input type="text" class="container1">
     </p>
-    <br>
     <p>
       <label>Planet Terrain</label>
       <input type="text" class="container1">
     </p>
-    <br>
     <p>
       <label>Email Address</label>
       <input type="text" class="container1">
     </p>
-      <br>
+      
       <p class="submit">
         <input type="submit" onclick="alert('Thank You for your application. You will shortly receive an email with your new designed planet!')" value="GO!" />
     </p>
