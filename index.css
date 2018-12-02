@@ -7,7 +7,7 @@ h6 {
 
 p {
   color:#00736c;
-  font-family:'Sofia';
+  font-family:'Quicksand', sans-serif;
   font-size: 20px;
   text-align: center;
 }
@@ -122,7 +122,7 @@ body {
     padding: 20px;
     border: 1px hidden #888;
     width: 80%;
-    opacity: 0.6;
+    opacity: 0.9;
     border-radius: 8px;
 }
 
@@ -132,7 +132,7 @@ body {
     padding: 20px;
     border: 1px hidden #888;
     width: 80%;
-    opacity: 0.6;
+    opacity: 0.9;
     border-radius: 8px;
 }
 
@@ -142,7 +142,7 @@ body {
     padding: 20px;
     border: 1px hidden #888;
     width: 80%;
-    opacity: 0.6;
+    opacity: 0.9;
     border-radius: 8px;
 }
 
@@ -152,7 +152,7 @@ body {
     padding: 20px;
     border: 1px hidden #888;
     width: 80%;
-    opacity: 0.6;
+    opacity: 0.9;
     border-radius: 8px;
 }
 
@@ -162,7 +162,7 @@ body {
     padding: 20px;
     border: 1px hidden #888;
     width: 80%;
-    opacity: 0.6;
+    opacity: 0.9;
     border-radius: 8px;
 }
 
@@ -172,7 +172,7 @@ body {
     padding: 20px;
     border: 1px hidden #888;
     width: 80%;
-    opacity: 0.6;
+    opacity: 0.9;
     border-radius: 8px;
 }
 
@@ -182,7 +182,7 @@ body {
     padding: 20px;
     border: 1px hidden #888;
     width: 80%;
-    opacity: 0.6;
+    opacity: 0.9;
     border-radius: 8px;
 }
 
@@ -313,7 +313,7 @@ input {vertical-align: middle;}
 
 .prev, .next {
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   top: 50%;
   width: auto;
   padding: 16px;
@@ -329,7 +329,7 @@ input {vertical-align: middle;}
 
 .next {
   right: 20%;
-  border-radius: 3px 0 0 3px;
+  border-radius: 0 3px 3px 0;
 }
 
 .prev {
@@ -339,6 +339,21 @@ input {vertical-align: middle;}
 
 
 .prev:hover, .next:hover {
-  background-color: #f1f1f1;
-  color: black;
+  background-color: black;
+  opacity: 0.4;
+  color: white;
+}
+
+a:link, a:visited {
+   color: black;
+   text-decoration: none;
+   font-family: 'Quicksand', sans-serif;
+
+
+}
+
+a:hover {
+  color: green;
+  opacity: 0.5;
+  text-decoration: none;
 }

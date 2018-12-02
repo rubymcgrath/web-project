@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
+<style>
+  body {
+    background-color: black;
+  }
+  div {
+    height: 150px;
+    width: 300px;
+
+  }
+  .rocket {
+    position: relative;
+    left: 200px;
+
+  }
+
+
+  .left {
+    font-family: 'Poller One', verdana, arial,sans-serif;
+    font-weight: bold;
+    font-size: 170px;
+    color: #bfbfbf;
+    transform:  scaleZ(-1) rotate(20deg);
+    -webkit-transform:  scaleZ(-1) rotate(20deg);
+    -moz-transform: scaleZ(-1) rotate(20deg);
+    transform:  scaleY(-1) rotate(200deg);
+    -webkit-transform:  scaleY(-1) rotate(200deg);
+    -moz-transform: scaleY(-1) rotate(200deg);
+    position: relative;
+    left: -310px;
+    top: -100px;
+    z-index: -1;
+
+  }
+  .right {
+    font-family: 'Poller One', verdana, arial,sans-serif;
+    font-weight: bold;
+    font-size: 170px;
+    color: #bfbfbf;
+    transform:  scaleY(-1) rotate(20deg);
+    -webkit-transform:  scaleY(-1) rotate(20deg);
+    -moz-transform:  scaleY(-1) rotate(20deg);
+    transform:  scaleZ(-1) rotate(20deg);
+    -webkit-transform:  scaleZ(-1) rotate(20deg);
+    -moz-transform:  scaleZ(-1) rotate(20deg);
+    position: relative;
+    left: 130px;
+    top: -250px;
+    z-index: -1;
+  }
+
+  .flame {
+    height: 40px;
+    width: 40px;
+    background: #cc0000;
+    border-radius: 0 40px 0 40px;
+    border: 10px solid #ffbf00;
+    position: relative;
+    left: 110px;
+    top: -145px;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  .foot {
+    height: 40px;
+    width: 40px;
+    background: #cc0000;
+    border-radius: 40px 0 40px 0;
+    border: 10px solid #ffbf00;
+    position: relative;
+    left: 60px;
+    top: -85px;
+    z-index: -1;
+    opacity: 0.5;
+  }
+  .middle {
+    height: 40px;
+    width: 40px;
+    background: #cc0000;
+    border-radius: 100px 100px 100px 0;
+    border: 10px solid #ffbf00;
+    position: relative;
+    left: 80px;
+    top: -165px;
+    z-index: -2;
+    opacity: 0.3;
+  }
+
+  .tail {
+    background-color: white;
+    height: 100px;
+    width: 110px;
+    border-radius: 60px 60px 10px 10px;
+    border-bottom: 20px solid #bfbfbf;
+    background-size: 50% 100% ;
+    position: relative;
+    left: 60px;
+    top: -80px;
+  }
+
+  .torso {
+    height: 0px;
+    width: 120px;
+    border-bottom: 220px solid white;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+    border-radius: 20px 20px 80px 80px;
+  }
+  .beep {
+    width: 5px;
+    height: 0;
+    border: 5px solid transparent;
+    border-top: 10px solid #bfbfbf;
+    border-bottom: 60px solid white;
+    position: relative;
+    left: 107px;
+
+  }
+
+  .brain {
+    background: radial-gradient(circle, red 15%, transparent 40%), white;
+    background:-webkit-radial-gradient(circle, red 15%, transparent 40%), white;
+    background: -moz-radial-gradient(circle, red 15%, transparent 40%), white;
+    height: 100px;
+    width: 110px;
+    border-radius: 60px 60px 10px 10px;
+    border-bottom: 20px solid #bfbfbf;
+    background-size: 50% 100% ;
+    position: relative;
+    left: 60px;
+  }
+
+  .button {
+    background-color: #004A7F;
+    -webkit-border-radius: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Palatino Linotype';
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+    -webkit-animation: glowing 1500ms infinite;
+    -moz-animation: glowing 1500ms infinite;
+    -o-animation: glowing 1500ms infinite;
+    animation: glowing 1500ms infinite;
+    position: relative;
+    left: 265px;
+    top: 135px;
+}
+
+@-webkit-keyframes glowing {
+  0% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -webkit-box-shadow: 0 0 3px #B20000; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; -moz-box-shadow: 0 0 3px #B20000; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+@keyframes glowing {
+  0% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #B20000; box-shadow: 0 0 3px #B20000; }
+}
+
+</style>
+</head>
+<body>
+<div class="rocket">
+  <div class="beep"></div>
+  <div class="brain"></div>
+  <div class="torso">
+    <div class="left">j</div>
+    <div class="right">j</div>
+  </div>
+  <div class="tail"></div>
+  <div class="foot"></div>
+  <div class="flame"></div>
+  <div class="middle"></div>
+</div>
+<a class="button" href="contact.html"> HELP! </a>
+</body>
