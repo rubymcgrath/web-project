@@ -3,7 +3,6 @@
 
   <title> Beyond Gravity's Reach </title>
   <link rel="stylesheet" href="./website.css">
-  <link rel="stylesheet" href="landingpage.css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="animation.css">
   <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
@@ -13,41 +12,22 @@
 
 </head>
 
-<body>
 
-    <header>
 
+  <header>
       <img src="./purple_planets.jpg")>
       <h1>Beyond Gravity's Reach</h1>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="slideshowtest.html">Planets</a></li>
-        <li><a href="transport.html">Transport</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a id="menu" href="index.html">Home</a></li>
+        <li><a id="menu" href="slideshowtest.html">Planets</a></li>
+        <li><a id="menu" href="transport.html">Transport</a></li>
+        <li><a id="menu" href="about.html">About</a></li>
       </ul>
-    </header>
-  <div id='forms'>
-    <article>
-     <h2>Form 1</h2>
-     <p>xxxxx</p>
-       </article>
+  </header>
 
-    <article>
-     <h2>Form 2</h2>
-     <p>xxxx
-  </p>
-      </article>
-  </div>
-    <article>
-     <h2>Team</h2>
-     <p>xxxxx</p>
-      </article>
-
-  <h6>Is this your first trip? </h6>
-  <p> Why don't you choose one of our suggested destinations? </p>
-  <br>
-  <br>
-  <br>
+<body>
+<article>
+  <h6>Is this your first trip? Why don't you choose one of our suggested destinations?</h6>
   <br>
 <div class="slideshow-container">
   <div class="mySlides1">
@@ -83,7 +63,6 @@
   }
   </script>
 
-
   <div class="mySlides1">
 
     <div>
@@ -92,6 +71,7 @@
     </div>
 
   </div>
+
   <div id="myModal1" class="modal1">
     <div class="modal1-content">
       <span class="close1">&times;</span>
@@ -318,15 +298,17 @@ function showSlides(n, no) {
   x[slideIndex[no]-1].style.display = "block";
 }
 </script>
+</article>
+<br>
+<br>
 
-
-
-
-<form>
+<div id='forms'>
+<article>
   <fieldset1>
-    <legend align="left"> Select A Planet! </legend>
+    <p1> Select a Planet </p1>
     <br>
-    <label for="planet">Planet</label>
+    <br>
+    <label for="planet" >Planet</label>
     <select id="planet" name="planet">
         <option value="Earth">Earth</option>
         <option value="Moon">Moon</option>
@@ -338,7 +320,8 @@ function showSlides(n, no) {
     </select>
     <br>
     <br>
-    <label for="transport"> Transport </label>
+    <p1> Transport </p1>
+    <br>
     <p>
       <input type="radio" name="radio">
       <label class="container">Imperial Destroyer
@@ -363,31 +346,14 @@ function showSlides(n, no) {
       <span class="checkmark"> </span>
       </label>
     </p>
-    <br>
-    <label for="staff">Staff Member</label>
-    <select id="staff" name="staff">
-        <option value="Memona">Memona</option>
-        <option value="Anisia">Anisia</option>
-        <option value="Bianca">Bianca</option>
-        <option value="Isla">isla</option>
-        <option value="Ruby">Ruby</option>
-        <option value="Fangzi">Fangzi</option>
-    </select>
-    <br>
-    <p>
-      <label>Email</label>
-      <br>
-      <input type="text" class="container1">
-    </p>
     <p class="submit">
-      <input type="submit" onclick="alert('Thank You for selecting a Planet!')" value="GO!" />
+      <input type="submit" onclick="alert('Thank You for your application. You will shortly receive an email with more details!')" value="GO!" />
   </p>
-</fieldset1>
-</form>
+</article>
 
-<form>
+<article>
   <fieldset2>
-    <legend align="left"> Create A Planet! </legend>
+    <p1> Create a Planet </p1>
   <p>
     <label>Planet Name</label>
     <input type="text" class="container1">
@@ -413,10 +379,34 @@ function showSlides(n, no) {
       <input type="submit" onclick="alert('Thank You for your application. You will shortly receive an email with your new designed planet!')" value="GO!" />
   </p>
 </fieldset2>
+</article>
+</div>
+
+    <br>
+<p1> <label for="staff">Staff Member</label><p1>
+    <select id="staff" name="staff">
+        <option value="Memona">Memona</option>
+        <option value="Anisia">Anisia</option>
+        <option value="Bianca">Bianca</option>
+        <option value="Isla">isla</option>
+        <option value="Ruby">Ruby</option>
+        <option value="Fangzi">Fangzi</option>
+    </select>
+    <br>
+    <p>
+      <label>Email</label>
+      <br>
+      <input type="text" class="container1">
+    </p>
+    <p class="submit">
+      <input type="submit" onclick="alert('Thank You for selecting a Planet!')" value="GO!" />
+  </p>
+</fieldset1>
 </form>
 
-<br>
-<br>
+
+</div>
+
 <br>
 <br>
 <br>
@@ -435,10 +425,3 @@ function showSlides(n, no) {
 <a class="button" href="contact.html" target="_blank"> Contact us! </a>
 
 </body>
-<footer>
-  <p>KNOW BEFORE YOU GO - STAY SAFE &amp; HEALTHY ABROAD</p>
-  <p>The Foreign & Commonwealth Office and National Travel Health Network and Centre have up-to-date advice on staying safe and healthy abroad.
-
-For the latest travel advice from the Foreign & Commonwealth Office including security and local laws, plus passport and visa information check their website.
-</p>
-</footer>

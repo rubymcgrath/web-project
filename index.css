@@ -1,22 +1,80 @@
-h6 {
-  color: #00736c ;
-  font-family: 'Sofia';
-  font-size: 25px;
+header {
+  text-align: center;
+  background: url("background_image_space.jpg");
+  background-size:cover;
+  color: white;
+
+}
+
+body {
+  background-color: black;
   text-align: center;
 }
 
+}
+
+h1 {
+  font-size: 70px;
+}
+img {
+  height: 100px;
+  width: 100px;
+  margin: 40px 0px 0px 0px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.9);
+  color: white;
+}
+li {
+  display: inline;
+  padding: 0px 30px 0px 30px;
+  font-size: 30px;
+  }
+
+#menu {
+  color: white;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    text-decoration: none;
+}
+
+article{
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  color: white;
+  }
+#forms {
+    column-count: 2;
+    display: block;
+    background-color: #4d0038;
+  }
+
+h6 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    text-decoration: none;
+}
+
+
 p {
-  color:#00736c;
+color: white;
   font-family:'Quicksand', sans-serif;
   font-size: 20px;
   text-align: center;
 }
 
-body {
+p1 {
   text-align: center;
-  background-color: black;
-}
-
+  font-size: 30px;
+  color: white;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+  text-decoration: none;
+  }
 
 .modal {
   display: none;
@@ -356,4 +414,9 @@ a:hover {
   color: green;
   opacity: 0.5;
   text-decoration: none;
+}
+footer {
+color: white;
+display: block;
+background-color:  #4d0038;
 }
