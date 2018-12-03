@@ -12,6 +12,10 @@ h2 {
   text-align: center;
 }
 
+h1 {
+  font-size: 80px;
+}
+
 p {
   color: white;
   font-family:'Quicksand', sans-serif;
