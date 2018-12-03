@@ -26,6 +26,11 @@
     padding: 10px;
     background: rgba(0,0,0,0.9);
     color: white;
+    overflow: hidden;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   li {
     display: inline;
